@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKSHAY N</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Resume</h1>
+        <p>Email: <a href="mailto:akshayn.22cs@saividya.ac.in">akshayn.22cs@saividya.ac.in</a> | Phone: 8792106534</p>
+        <p><a href="http://www.linkedin.com/in/akshayn1">LinkedIn Profile</a></p>
+        <p><a href="http://www.github.com/in/akshayn01">GitHub profile</a></p>
+    </header>
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>I am a motivated software engineer with a strong foundation in computer science. I'm passionate about AI and machine learning, and I'm proficient in various programming languages. I'm a quick learner, always eager to learn new skills, and I bring a positive attitude to every project.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div>
+            <h3>Accident Detection using AI</h3>
+            <p><strong>Objective:</strong> The AI Accident Detection Analyser uses the YOLO algorithm to detect accidents</p>
+            <p><strong>Skills:</strong> Python, Natural Language Processing, AI and Machine Learning</p>
+        </div>
+        <div>
+            <h3>Maze Solver</h3>
+            <p><strong>Objective:</strong> Created a classic Maze Solver using BFS Backtracking and Prim's Algorithms.</p>
+            <p><strong>Skills:</strong> C Programming</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Engineering</strong>, Sai Vidya Institute of Technology</p>
+        <p><strong>2nd PU:</strong> Shree Vani PU College | Percentage: 85%</p>
+        <p><strong>School:</strong> Nisarga Public School | Percentage: 87%</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Excellent Problem-Solving Skills</li>
+            <li>Programming Languages: C, Python, Java, HTML</li>
+            <li>Data Structures and Algorithms</li>
+            <li>AI and Machine Learning Basics</li>
+            <li>Effective Communication and Collaboration Skills</li>
+        </ul>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Cyber Security Fundamentals</li>
+            <li>Project Management with Agile</li>
+            <li>Oracle SQL-A Comprehensive Course</li>
+        </ul>
+    </section>
+    <section id="languages">
+        <h2>Languages</h2>
+        <p>English, Kannada</p>
+    </section>
+    <section id="bioData">
+        <h2>Bio Data</h2>
+        <button id="bioDataBtn">View Bio Data</button>
+        <div id="bioDataContent" style="display:none;">
+            <p><strong>Name:</strong> Akshay N</p>
+            <p><strong>Date of Birth:</strong> 4th, February 2004</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Father Name:</strong> Narasimha Murthy</p>
+            <p><strong>Mother Name:</strong> Asha</p>
+            <p><strong>Nationality:</strong> Indian</p>
+            <p><strong>Religion:</strong> Hindu</p>
+            <p><strong>Hobbies:</strong> Reading, Drawing</p>
+        </div>
+    </section>
+    <script>
+        document.getElementById('bioDataBtn').addEventListener('click', function() {
+            var bioDataContent = document.getElementById('bioDataContent');
+            if (bioDataContent.style.display === 'none') {
+                bioDataContent.style.display = 'block';
+            } else {
+                bioDataContent.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
